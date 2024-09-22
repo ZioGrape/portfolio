@@ -92840,7 +92840,7 @@ const $le = () => {
     const e = be.useRef(),
       { nodes: t, materials: r, animations: i } = za('./models/computer.glb');
     TK(i, e);
-    const s = CK(n.texture ? n.texture : '/textures/project/project1.mp4');
+    const s = CK(n.texture ? n.texture : './textures/project/project1.mp4');
     return (
       be.useEffect(() => {
         s && (s.flipY = !1);
