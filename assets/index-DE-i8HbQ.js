@@ -60358,7 +60358,7 @@ const KZ = be.memo(JZ),
   ZZ = (n) => {
     const e = be.useRef(),
       { scene: t } = za(
-        'https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf'
+        'https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public./models/target-stand/model.gltf'
       );
     return (
       dh(() => {
@@ -60481,7 +60481,7 @@ const KZ = be.memo(JZ),
       : [-13, -13, -10],
   }),
   r$ = (n) => {
-    const { nodes: e, materials: t } = za('/models/hacker-room.glb'),
+    const { nodes: e, materials: t } = za('./models/hacker-room.glb'),
       r = bd('textures/desk/monitor.png'),
       i = bd('textures/desk/screen.png');
     return we.jsxs('group', {
@@ -60550,7 +60550,7 @@ const KZ = be.memo(JZ),
       ],
     });
   };
-za.preload('/models/hacker-room.glb');
+za.preload('./models/hacker-room.glb');
 const i$ = be.memo(r$),
   s$ = ['Fullstack', 'Frondend', 'DevOps', 'Creative', 'Reliable'],
   o$ = () => {
@@ -92838,7 +92838,7 @@ const $le = () => {
   },
   nue = (n) => {
     const e = be.useRef(),
-      { nodes: t, materials: r, animations: i } = za('/models/computer.glb');
+      { nodes: t, materials: r, animations: i } = za('./models/computer.glb');
     TK(i, e);
     const s = CK(n.texture ? n.texture : '/textures/project/project1.mp4');
     return (
@@ -92941,7 +92941,7 @@ const $le = () => {
       })
     );
   };
-za.preload('/models/computer.glb');
+za.preload('./models/computer.glb');
 const H7 = zO.length,
   rue = () => {
     const [n, e] = be.useState(0),
